@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState }  from "react";
 
-const Api=`http://www.omdbapi.com/?apikey=e661bc9`;
+const Api=`https://www.omdbapi.com/?apikey=e661bc9`;
 const AppContext=React.createContext();
 const AppProvider=({children})=>{
     const [isLoading,setIsLoading]=useState(true);
